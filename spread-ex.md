@@ -18,12 +18,12 @@ O operador `spread (...)` quebra o array retornado pela API em elementos individ
 Se você usar `list.push(data)`, estará adicionando o **array inteiro** retornado pela API como um único elemento dentro de `list`. O resultado será:
 
 ```js
-[
+
   [
     { userId: 1, id: 1, title: "Post 1", body: "Texto do post 1" },
     { userId: 1, id: 2, title: "Post 2", body: "Texto do post 2" }
   ]
-]
+
 ```
 
 Quando Usar Cada Um:
