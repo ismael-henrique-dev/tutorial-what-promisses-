@@ -24,6 +24,7 @@ async function getData() {
     const data = await response.json()
 
     console.log(data)
+    console.log("Data recebida")
   } catch (error) {
     console.error(error)
   }
